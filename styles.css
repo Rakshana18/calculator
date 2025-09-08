@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.calc{
+    width:20%;
+    height: 60%;
+    background-color:#1b263b;
+    border-radius: 10px;
+    box-shadow: 5px 5px #33415c;
+    padding: 5px;
+}
+.answer{
+    width: 85%;
+    height: 20%;
+    margin:15px;
+    border-radius: 10px;
+    font-size:1.6em ;
+}
+button{
+    width:30%;
+    height: 40%;
+    margin-bottom:10px;
+    font-size:1.6em;
+    text-align:center;
+    padding:5px;
+    margin-left:5px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
